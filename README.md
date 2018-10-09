@@ -1,11 +1,11 @@
 Bee Weather
 This is an example how to consume an api with no third libraries.
 
-tested fully on iphone X 
+Tested fully on iphone X 
 
 (check constrains for other iphones)
 
-an example using Swift
+An example using Swift
 
 ![Screenshot](main_wheather.jpeg)
 
@@ -19,7 +19,10 @@ you can search cities in the world and added to your list
 
 
 ![Screenshot](search_city.jpeg)
+
+
 you can also swipe to add a city
+
 
 
 ![Screenshot](swipe_delete.jpeg)
