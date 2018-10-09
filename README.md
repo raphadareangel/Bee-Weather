@@ -7,22 +7,24 @@ Tested fully on iphone X
 
 An example using Swift
 
-![Screenshot](main_wheather.jpeg)
+
+<img src="main_wheather.jpeg"  width="300">
+
 
 
 this displays the forcast for 5 days
 
+<img src="main_forecast.jpeg" width="300">
 
-![Screenshot](main_forecast.jpeg)
 
 you can search cities in the world and added to your list
 
+<img src="search_city.jpeg" width="300">
 
-![Screenshot](search_city.jpeg)
 
 
 you can also swipe to add a city
 
 
+<img src="swipe_delete.jpeg" width="300">
 
-![Screenshot](swipe_delete.jpeg)
