@@ -7,7 +7,7 @@ Tested fully on iphone X
 
 An example using Swift
 
-![Screenshot](main_wheather.jpeg =200x200)
+![Screenshot](main_wheather.jpeg)
 
 
 this displays the forcast for 5 days
