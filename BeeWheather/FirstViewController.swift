@@ -150,7 +150,7 @@ class FirstViewController: UIViewController,CLLocationManagerDelegate  {
         
         super.viewDidAppear(true)
         NSLog("viewDidAppear is running")
-        LocationVerifyMessage(titleText : "Location Services", messageText : "Your have to give acces to your location in order to use this functions")
+        //LocationVerifyMessage(titleText : "Location Services", messageText : "Your have to give acces to your location in order to use this functions")
         
         
         
@@ -164,6 +164,7 @@ class FirstViewController: UIViewController,CLLocationManagerDelegate  {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
        // startActivityIndicator()
+        LocationVerifyMessage(titleText : "Location Services", messageText : "Your have to give acces to your location in order to use this functions")
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         let userLocation = locations.last
